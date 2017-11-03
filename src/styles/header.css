@@ -97,8 +97,8 @@
 .topHeaderLinks8 {
     display: flex;
     align-items: center;
-    height: 4vh;
-    width: 4em;
+    height: 2vh;
+    width: 2em;
     background-image: url('./../images/united-states.png');  
     background-position: center;
     background-size: contain;
@@ -124,6 +124,7 @@
     height: 4vh;
     width: 4em;
     margin-left: 2em;
+    margin-right: 10em;
     background-image: url('./../images/nikeLogo.png');
     background-position: center;
     background-size: contain;
@@ -173,14 +174,22 @@
 .searchContainer {
     display: flex;
     align-items: center;
-    justify-content: center;
     width: 14em;
     height: 4vh;
-    /* background-color: orangered; */
     margin-right: 2em;
     border: solid 1px;
+    font-size: .9em;
+    border-color: rgba(165, 165, 165, 0.7);
 }
 
+.magnifyingGlass {
+    width: 1.5em;
+    height: 1.5em;
+    background-image: url('./../images/searchIcon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 1em 0 1em; 
+}
 .searchLink {
-
+    
 }

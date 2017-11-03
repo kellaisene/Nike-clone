@@ -1,0 +1,146 @@
+.mainFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 100%;
+    background-color: rgb(31, 31, 31);
+}
+
+.topFooter {
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+    width: 60em;
+    background-color: rgb(31, 31, 31);
+    margin-top: 2em;
+}
+
+.columns {
+    display: flex;
+    height: 30vh;
+    width: 32.5em;
+}
+
+.column {
+    height: 30vh;
+    width: 10.83em;
+    background-color: rgb(31, 31, 31);
+}
+
+.column p {
+    font-family: 'Open Sans Condensed', sans-serif;    
+    font-weight: 700;
+    font-size: .9em;
+    color: white;
+}
+
+p.normalFont {
+    font-weight: 400;    
+    font-size: .9em;
+    color: rgba(194, 194, 194, 0.7);
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: flex-start;
+    height: 3vh;
+    width: 10em;
+    /* background-color: peru; */
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .socialIcons a {
+    text-decoration: none;
+  }
+  
+  .socialCircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgba(105, 105, 105, 0.8);
+    margin-right: 1em;
+    margin-top: .5em;
+  }
+  
+  .fa-facebook {
+    color: white;
+  }
+  
+  .fa-twitter {
+    color: #4A4A4A;
+  }
+  
+  .fa-linkedin {
+    color: #4A4A4A;
+  }
+
+.bottomFooter {
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    width: 60em;
+    background-color: rgb(31, 31, 31);
+}
+
+.leftSide {
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    width: 28em;
+    background-color: rgb(31, 31, 31);
+    font-size: 10px;
+    color: rgba(194, 194, 194, 0.7);
+}
+
+.flagLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2vh;
+    width: 2em;
+    margin-right: 1em;
+    background-image: url('./../images/united-states.png');  
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.unitedStates {
+    font-weight: 700;
+    margin-right: 1em; 
+    color: white;   
+}
+
+.rightSide {
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    width: 25em;
+    background-color: rgb(31, 31, 31);
+    font-size: 10px;
+    color: rgba(194, 194, 194, 0.7);
+}
+
+.guides {
+    margin: 0 1em;
+    /* background-color: green; */
+}
+.terms {
+    margin: 0 1em;
+    /* background-color: yellow; */
+    
+}
+.privacy {
+    margin: 0 0 0 1em;
+    /* background-color: violet; */
+    
+}

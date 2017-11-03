@@ -61,6 +61,7 @@ class Header extends Component {
                     <div className="customizeLink">CUSTOMIZE</div>
                 </div>
                 <div className="searchContainer">
+                    <div className="magnifyingGlass"></div>
                     <div className="searchLink">Search</div>
                 </div>
                 </section>
