@@ -2,7 +2,7 @@
     max-width: 100%;
     height: 11.3vh;
     padding: 0;
-    background-color: red;
+    /* background-color: red; */
     
 }
 
@@ -141,31 +141,22 @@
     /* margin: 0 3em 0 15em; */
 }
 
-.menLink {
-    font-family: 'Open Sans Condensed', sans-serif;    
-    font-weight: 700;
-    font-size: .9em;
+.menuSpread a {
+    text-decoration: none;
+    color: black;    
 }
 
-.womenLink {
-    font-family: 'Open Sans Condensed', sans-serif;    
-    font-weight: 700;
-    font-size: .9em;
+.menuSpread a:focus {
+    padding-top: 2px;
+    border-bottom: solid 2px black;
 }
 
-.boysLink {
-    font-family: 'Open Sans Condensed', sans-serif;    
-    font-weight: 700;
-    font-size: .9em;
-}
-
-.girlsLink {
-    font-family: 'Open Sans Condensed', sans-serif;    
-    font-weight: 700;
-    font-size: .9em;
-}
-
-.customizeLink {
+.menLink, .womenLink, .boysLink, .girlsLink, .customizeLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6.8vh;
+    width: 5em;
     font-family: 'Open Sans Condensed', sans-serif;    
     font-weight: 700;
     font-size: .9em;
@@ -180,6 +171,7 @@
     border: solid 1px;
     font-size: .9em;
     border-color: rgba(165, 165, 165, 0.7);
+    border-radius: 2px;
 }
 
 .magnifyingGlass {

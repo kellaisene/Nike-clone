@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/header.css';
+import {Link} from 'react-router-dom';
 // import {leaveHome, returnHome} from './../ducks/reducer';
 // import {connect} from 'react-redux';
 
@@ -52,13 +53,13 @@ class Header extends Component {
                 </div>
                 </section>
                 <section className="bottomHeader">
-                    <div className="nikeHome"></div>
+                    <Link to="/" className="nikeHome"></Link>
                 <div className="menuSpread">
-                    <div className="menLink">MEN</div>
-                    <div className="womenLink">WOMEN</div>
-                    <div className="boysLink">BOYS</div>
-                    <div className="girlsLink">GIRLS</div>
-                    <div className="customizeLink">CUSTOMIZE</div>
+                    <Link to="/men" className="menLink">MEN</Link>
+                    <Link to="/women" className="womenLink">WOMEN</Link>
+                    <Link to="/boys" className="boysLink">BOYS</Link>
+                    <Link to="/girls" className="girlsLink">GIRLS</Link>
+                    <Link to="/customize" className="customizeLink">CUSTOMIZE</Link>
                 </div>
                 <div className="searchContainer">
                     <div className="magnifyingGlass"></div>
