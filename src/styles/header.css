@@ -1,9 +1,9 @@
 .mainHeader {
-    max-width: 100%;
+    min-width: 100%;
+    width: 960px;
     height: 11.3vh;
-    padding: 0;
-    /* background-color: red; */
-    
+    /* padding-bottom: 10em; */
+    /* position: fixed; */
 }
 
 .topHeader {
@@ -147,6 +147,11 @@
 }
 
 .menuSpread a:focus {
+    padding-top: 2px;
+    border-bottom: solid 2px black;
+}
+
+.menuSpread a:hover {
     padding-top: 2px;
     border-bottom: solid 2px black;
 }

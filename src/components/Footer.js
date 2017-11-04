@@ -35,17 +35,26 @@ class Footer extends Component {
                         </div>
                     </div>
                     <div className="socialIcons">
-                        <a href="https://www.facebook.com/ElSistemaPittsburgh/" target="_blank">
-                        <div className="socialCircle"><i className="fa fa-facebook fa-fw" aria-hidden="true"></i></div>
+                        
+                        <a href="https://twitter.com/Nike" target="_blank">
+                        <div className="socialCircle"><div className="twitter"></div><i className="fa fa-facebook fa-fw" aria-hidden="true"></i></div>
                         </a>
-
-                        <a href="https://twitter.com/elsistema" target="blank">
-                        <div className="socialCircle"><i className="fa fa-twitter fa-fw" aria-hidden="true"></i></div>
+                        
+                        
+                        <a href="https://www.facebook.com/nike" target="blank">
+                        <div className="socialCircle"><div className="facebook"></div><i className="fa fa-twitter fa-fw" aria-hidden="true"></i></div>
                         </a>
-
-                        <a href="https://www.linkedin.com/company/3276954/" target="_blank">
-                        <div className="socialCircle"><i className="fa fa-linkedin fa-fw" aria-hidden="true"></i></div>
+                        
+                        
+                        <a href="https://www.youtube.com/user/nike" target="_blank">
+                        <div className="socialCircle"><div className="youtube"></div><i className="fa fa-linkedin fa-fw" aria-hidden="true"></i></div>
                         </a>
+                        
+                        
+                        <a href="https://www.instagram.com/nike/" target="_blank">
+                        <div className="socialCircle"><div className="instagram"></div><i className="fa fa-linkedin fa-fw" aria-hidden="true"></i></div>
+                        </a>
+                        
                     </div>
                 </section>
                 <section className="bottomFooter">
