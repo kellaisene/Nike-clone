@@ -32,15 +32,24 @@
      
 }
 .topHeaderLinks2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 4.5em;
     height: 4vh;
-    background-image: url('./../images/airJordan.png');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
     border-right-style: solid;
     border-width: 1px;   
     border-color: rgba(173, 173, 173, 0.7);    
+}
+
+.jordan {
+    width: 1em;
+    height: 3vh;
+    background-image: url('./../images/airJordan.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 .topHeaderLinks3 {
     width: 6em;
@@ -54,17 +63,26 @@
     border-color: rgba(173, 173, 173, 0.7);
     padding: 0 1.5em;    
 }
+
 .topHeaderLinks4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 7em;
+    height: 4vh;
+    border-right-style: solid;
+    border-width: 1px;  
+    border-color: rgba(173, 173, 173, 0.7);  
+    padding: 0 1em;  
+}
+
+.converse {
+    width: 5em;
     height: 4vh;
     background-image: url('./../images/converse1.png');  
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    border-right-style: solid;
-    border-width: 1px;  
-    border-color: rgba(173, 173, 173, 0.7);  
-    padding: 0 1em;  
 }
 
 .endLinks {
@@ -97,8 +115,8 @@
 .topHeaderLinks8 {
     display: flex;
     align-items: center;
-    height: 2vh;
-    width: 2em;
+    height: 1.5vh;
+    width: 1.5em;
     background-image: url('./../images/united-states.png');  
     background-position: center;
     background-size: contain;

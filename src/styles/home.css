@@ -111,6 +111,10 @@
     /* background-color: lightcoral; */
 }
 
+.lightShade {
+    color: rgba(168, 168, 168, 0.7);
+}
+
 .pic1 {
     height: 50vh;
     width: 23.5em;

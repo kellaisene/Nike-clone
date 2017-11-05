@@ -30,7 +30,7 @@ makes it unmistakable in all the right ways.</div>
                     <div className="pic1"></div>
                     <div className="textContain">
                     <p>Nike Lunar Force 1 Duckboot '17</p>
-                    <p>Men's Shoe</p>
+                    <p className="lightShade">Men's Shoe</p>
                     <p>Shop Now</p>
                     </div>
                     </div>
@@ -38,7 +38,7 @@ makes it unmistakable in all the right ways.</div>
                     <div className="pic2"></div>
                     <div className="textContain">                
                     <p>Nike SF Air Force 1 High</p>
-                    <p>Women's Shoe</p>
+                    <p className="lightShade">Women's Shoe</p>
                     <p>Shop Now</p>
                     </div>
                     </div>
@@ -46,7 +46,7 @@ makes it unmistakable in all the right ways.</div>
                     <div className="pic3"></div>  
                     <div className="textContain">                                  
                     <p>Nike SF Air Force 1 Mid</p>
-                    <p>Women's Shoe</p>
+                    <p className="lightShade">Women's Shoe</p>
                     <p>Shop Now</p>
                     </div>
                     </div>
@@ -54,7 +54,7 @@ makes it unmistakable in all the right ways.</div>
                     <div className="pic4"></div> 
                     <div className="textContain">                                       
                     <p>Nike SF Air Force 1 Mid</p>
-                    <p>Men's Shoe</p>
+                    <p className="lightShade">Men's Shoe</p>
                     <p>Shop Now</p>
                     </div>
                     </div>
@@ -83,7 +83,7 @@ makes it unmistakable in all the right ways.</div>
                     <div className="pic5"></div>
                     <div className="textContain">
                     <p>Nike Classic Cortez Suede</p>
-                    <p>Women's Shoe</p>
+                    <p className="lightShade">Women's Shoe</p>
                     <p>Shop Now</p>
                     </div>
                     </div>
@@ -91,7 +91,7 @@ makes it unmistakable in all the right ways.</div>
                     <div className="pic6"></div>
                     <div className="textContain">                
                     <p>Nike Air Huarache SD</p>
-                    <p>Women's Shoe</p>
+                    <p className="lightShade">Women's Shoe</p>
                     <p>Shop Now</p>
                     </div>
                     </div>
@@ -99,7 +99,7 @@ makes it unmistakable in all the right ways.</div>
                     <div className="pic7"></div>  
                     <div className="textContain">                                  
                     <p>Nike Air Force 1 07 LV8 Suede</p>
-                    <p>Men's Shoe</p>
+                    <p className="lightShade">Men's Shoe</p>
                     <p>Shop Now</p>
                     </div>
                     </div>
@@ -107,7 +107,7 @@ makes it unmistakable in all the right ways.</div>
                     <div className="pic8"></div> 
                     <div className="textContain">                                       
                     <p>Nike Air Force 1 High '07 LV8 Suede</p>
-                    <p>Men's Shoe</p>
+                    <p className="lightShade">Men's Shoe</p>
                     <p>Shop Now</p>
                     </div>
                     </div>

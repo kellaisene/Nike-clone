@@ -151,8 +151,8 @@ p.normalFont {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 2vh;
-    width: 2em;
+    height: 1.5vh;
+    width: 1.5em;
     margin-right: 1em;
     background-image: url('./../images/united-states.png');  
     background-position: center;

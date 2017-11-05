@@ -30,10 +30,13 @@ class Header extends Component {
                 <section className="topHeader">
                     <div className="topHeaderLinks1">NikePlus</div>
                     <div className="topHeaderLinks2">
+                        <div className="jordan"></div>
                         {/* <img src="./../images/airJordan.png" height="15px" width="15px"/> */}
                     </div>
                     <div className="topHeaderLinks3"></div>
-                    <div className="topHeaderLinks4"></div>
+                    <div className="topHeaderLinks4">
+                        <div className="converse"></div>
+                    </div>
                 <div className="endLinks">
                     <div className="topHeaderLinks5">Join / Log In To Nike+ Account</div>
                     <div className="topHeaderLinks6">Help</div>
