@@ -1,5 +1,5 @@
 .homeHeader {
-    height: 500vh;
+    height: 432vh;
     width: 100%;
     /* background-color: red; */
 }
@@ -42,8 +42,9 @@
 
 .body {
     text-align: center;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 1.2em;
+    line-height: 1.2em;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    font-size: 1em;
 }
 
 .shopButtonsContainer {
@@ -151,4 +152,134 @@
 
 p {
     font-size: .9em;
+}
+
+.fourthSection {
+    display: flex;
+    height: 77vh;
+    width: 100%;
+    background-color: red;
+}
+
+.layerSmarter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 77vh;
+    width: 50%;
+    background-color: rgb(87, 87, 87);
+}
+
+.layerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 35vh;
+    width: 35em;
+    color: white;
+    /* background-color: teal; */
+}
+
+.layerTitle {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+
+}
+
+.body2 {
+    text-align: center;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+.shopNow {
+    font-size: .8em;
+    /* margin-top: 1em; */
+}
+
+.layerSmarter2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 77vh;
+    width: 50%;
+    background-image: url('./../images/layerSmarter.png');
+    background-size: cover;
+
+}
+
+.pic5 {
+    height: 50vh;
+    width: 23.5em;
+    background-image: url('./../images/pic5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pic6 {
+    height: 50vh;
+    width: 23.5em;
+    background-image: url('./../images/pic6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pic7 {
+    height: 50vh;
+    width: 23.5em;
+    background-image: url('./../images/pic7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pic8 {
+    height: 50vh;
+    width: 23.5em;
+    background-image: url('./../images/pic8.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lastSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    /* background-color: purple; */
+    border-top: solid 1px;
+    border-color: rgba(212, 212, 212, 0.7);
+}
+
+.lastSectionContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 45vh;
+    width: 93%;
+    /* background-color: maroon; */
+}
+
+.jackets {
+    height: 45vh;
+    width: 32em;
+    background-image: url('./../images/jackets.png');
+    background-size: cover;
+}
+
+.fleece {
+    height: 45vh;
+    width: 32em;
+    background-image: url('./../images/fleece.png');
+    background-size: cover;
+}
+
+.tights {
+    height: 45vh;
+    width: 32em;
+    background-image: url('./../images/tights.png');
+    background-size: cover;
 }
