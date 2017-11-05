@@ -65,8 +65,7 @@
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
     font-size: .8em;
-    border-top: solid 1px;
-    border-bottom: solid 1px;
+    border: solid 1px;
     border-color: rgba(212, 212, 212, 0.7);
 }
 

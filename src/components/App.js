@@ -20,7 +20,7 @@ class App extends Component {
             height="900px" width="100%" 
             alt="Nike Swoosh"/> */}
         <Switch>
-          <Route exact path="/" component={Home}/>
+          <Route  exact path="/" component={Home}/>
           <Route  path="/men" component={Men}/>
           <Route  path="/women" component={Women}/>
           <Route  path="/boys" component={Boys}/>
