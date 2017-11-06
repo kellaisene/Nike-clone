@@ -18,20 +18,20 @@ class Footer extends Component {
                         </div>
                         <div className="column">
                             <p>GET HELP</p>
-                            <p className="normalFont">Order Status</p>
-                            <p className="normalFont">Shipping and Discovery</p>
-                            <p className="normalFont">Returns</p>
-                            <p className="normalFont">Payment Options</p>
-                            <p className="normalFont">Contact Us</p>
+                            <div className="normalFont">Order Status</div>
+                            <div className="normalFont">Shipping and Discovery</div>
+                            <div className="normalFont">Returns</div>
+                            <div className="normalFont">Payment Options</div>
+                            <div className="normalFont">Contact Us</div>
                         </div>
                         <div className="column">
                             <p>ABOUT NIKE</p>
-                            <p className="normalFont">News</p>
-                            <p className="normalFont">Careers</p>
-                            <p className="normalFont">Converse Culture & Careers</p>
-                            <p className="normalFont">Investors</p>
-                            <p className="normalFont">Sustainable Innovation</p>
-                            <p className="normalFont">CA Supply Chains Act</p>
+                            <div className="normalFont">News</div>
+                            <div className="normalFont">Careers</div>
+                            <div className="normalFont">Converse Culture & Careers</div>
+                            <div className="normalFont">Investors</div>
+                            <div className="normalFont">Sustainable Innovation</div>
+                            <div className="normalFont">CA Supply Chains Act</div>
                         </div>
                     </div>
                     <div className="socialIcons">
