@@ -65,7 +65,7 @@ class Header extends Component {
                                 <div className="dropColumns"></div>
                                 <div className="dropColumns"></div>
                                 <div className="dropColumns"></div>
-                                {/* Yo wassup this is the dropdown menu within the menu! */}
+                                Yo wassup this is the dropdown menu within the menu! 
                             </section>
                         </div>
 
