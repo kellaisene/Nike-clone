@@ -58,7 +58,18 @@ class Header extends Component {
                 <section className="bottomHeader">
                     <Link to="/" className="nikeHome"></Link>
                 <div className="menuSpread">
-                    <Link to="/men" className="menLink">MEN</Link>
+                    <div className="dropdown">
+                    <span><Link to="/men" className="menLink">MEN</Link></span>
+                        <div className="dropdown-content">
+                            <section className="hoverdrop">
+                                <div className="dropColumns"></div>
+                                <div className="dropColumns"></div>
+                                <div className="dropColumns"></div>
+                                {/* Yo wassup this is the dropdown menu within the menu! */}
+                            </section>
+                        </div>
+
+                    </div>
                     <Link to="/women" className="womenLink">WOMEN</Link>
                     <Link to="/boys" className="boysLink">BOYS</Link>
                     <Link to="/girls" className="girlsLink">GIRLS</Link>
