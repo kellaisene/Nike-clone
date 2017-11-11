@@ -51,7 +51,6 @@ class Header extends Component {
 
                          </div>
                     <div className="topHeaderLinks8">
-                        {/* <img src="./../images/united-states.png" width="15px" height="15px" alt="us-flag"/> */}
                     </div>
                 </div>
                 </section>
