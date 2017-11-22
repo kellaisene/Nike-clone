@@ -6,23 +6,23 @@ import {Link} from 'react-router-dom';
 
 
 class Header extends Component {
-    constructor(props) {
-        super(props);
-            this.state={
-                defaultPage: this.props.currentPage
-            }
-    }
+    // constructor(props) {
+    //     super(props);
+    //         this.state={
+    //             defaultPage: this.props.currentPage
+    //         }
+    // }
 
-    componentDidMount(){
-        this.setState({
-            defaultPage: true
-        })
-    }
+    // componentDidMount(){
+    //     this.setState({
+    //         defaultPage: true
+    //     })
+    // }
     render() {
-        const homeHeader = {position: "relative"}
-        const homeLogo = {position: "absolute", top: "35px", height: "12.5vh", width: "25%"}
-        const homeLogoPhone = {position: "absolute", top: "13px", height: "6vh", width: "30%"}
-        const homeLogoTablet = {position: "absolute", top: "35px", height: "8.5vh", width: "27.5%"}
+        // const homeHeader = {position: "relative"}
+        // const homeLogo = {position: "absolute", top: "35px", height: "12.5vh", width: "25%"}
+        // const homeLogoPhone = {position: "absolute", top: "13px", height: "6vh", width: "30%"}
+        // const homeLogoTablet = {position: "absolute", top: "35px", height: "8.5vh", width: "27.5%"}
     
         return(
             <main className="mainHeader">
@@ -31,7 +31,6 @@ class Header extends Component {
                     <div className="topHeaderLinks1">NikePlus</div>
                     <div className="topHeaderLinks2">
                         <div className="jordan"></div>
-                        {/* <img src="./../images/airJordan.png" height="15px" width="15px"/> */}
                     </div>
                     <div className="topHeaderLinks3"></div>
                     <div className="topHeaderLinks4">
