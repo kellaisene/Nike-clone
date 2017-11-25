@@ -98,7 +98,6 @@
     align-items: center;
     height: 74vh;
     width: 93%;
-    /* background-color: green; */
 }
 
 .placeholder {
@@ -108,7 +107,6 @@
     flex-direction: column;
     height: 60vh;
     width: 23.5em;
-    /* background-color: lightcoral; */
 }
 
 .lightShade {
