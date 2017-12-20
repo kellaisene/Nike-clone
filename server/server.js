@@ -8,6 +8,8 @@ var cors = require('cors');
 var app = module.exports = express();
 var port = 8080;
 
+const connectionString = process.env.CONNECTION_STRING;
+
 
 
 app.use(cors());
@@ -19,7 +21,9 @@ app.use(session({
 app.use(express.static( `${__dirname}/../build` ) );
 app.use(bodyParser.json());
 
-massive( connectionString ).then( db => {
+massive( "postgres://ynfevgay:xcuvbyYrWZhHToZFi0djXXCYDkDbH-FV@baasu.db.elephantsql.com:5432/ynfevgay" ).then( db => {
     console.log('DB Connected');
     app.set('db', db)
 }).catch(err=>console.log(err));
+
+app.listen( port, () => { console.log(`Server is listening on port ${port}`)})

@@ -185,7 +185,7 @@
     font-size: .9em;
 }
 
-.dropdown {
+/* .dropdown {
     position: relative;
     display: inline-block;
 }
@@ -195,8 +195,8 @@
     position: absolute;
     background-color: yellowgreen;
     width: 100%;
-    /* margin-right: 50em; */
-    /* min-width: 160px; */
+    margin-right: 50em;
+    min-width: 160px;
     padding: 12px 16px;
     z-index: 1;
 }
@@ -219,7 +219,7 @@
     background-color: lightblue;
     margin: 5px 5px;
     
-}
+} */
 
 .searchContainer {
     display: flex;
